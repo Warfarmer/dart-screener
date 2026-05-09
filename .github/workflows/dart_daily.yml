@@ -1,0 +1,44 @@
+name: DART Daily Screener
+
+on:
+  schedule:
+    # KST 09:00 = UTC 00:00 (장 시작 직전)
+    - cron: '0 0 * * 1-5'  # 월~금 평일만
+  workflow_dispatch:  # 수동 실행 버튼 (테스트용)
+
+permissions:
+  contents: write
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - name: 1. 저장소 체크아웃
+        uses: actions/checkout@v4
+      
+      - name: 2. Python 3.11 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: 3. 라이브러리 설치
+        run: |
+          pip install requests pandas openpyxl
+      
+      - name: 4. DART 스크리너 실행
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: |
+          python DART_screener.py
+      
+      - name: 5. 결과 파일 commit
+        run: |
+          git config user.name "DART Bot"
+          git config user.email "bot@github.com"
+          git add DART_점수_*.csv || echo "No CSV"
+          git diff --staged --quiet || git commit -m "DART Result $(date +'%Y-%m-%d')"
+          git push || echo "Push 실패 (무시)"
