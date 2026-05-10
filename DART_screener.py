@@ -1,13 +1,15 @@
 """
-워파머 v13.6.8 — DART 악재 자동 스크리너 (v3.0)
-새 기능: 한국 전체 상장사 corp_code 매핑 (~2,800종)
+워파머 v13.6.8 — DART 악재 자동 스크리너 (v3.1)
+새 기능:
+- 한국 전체 ~2,800종 자동 분석
+- corp_code_map.json 자동 활용
+- 알림 임계값 강화 (노이즈 감소)
 """
 
 import requests
 import pandas as pd
 from datetime import datetime, timedelta
 import time
-import re
 import os
 import json
 import zipfile
@@ -19,56 +21,6 @@ TG_CHAT_ID = os.environ.get("TG_CHAT_ID", "")
 
 if not API_KEY:
     raise ValueError("DART_API_KEY가 설정되지 않음")
-
-# ============================================
-# 워파머 매트릭스 32종 (자동 알림용)
-# ============================================
-STOCKS_INPUT = {
-    # ━━━━ 워파머 매트릭스 32종 ━━━━
-    "포스코퓨처엠": "003670", "롯데웰푸드": "280360", "저스템": "417840",
-    "오로스테크놀로지": "322310", "제룡전기": "033100", "유진테크": "084370",
-    "진성티이씨": "036890", "오킨스전자": "100120", "삼성증권": "016360",
-    "미래반도체": "254490", "LS마린솔루션": "060370", "현대건설": "000720",
-    "자비스": "254120", "코데즈컴바인": "047770", "케이엠더블유": "032500",
-    "타이거일렉": "219130", "유니퀘스트": "077500", "일진홀딩스": "015860",
-    "KBI메탈": "024840", "지아이에스": "306620", "에치에프알": "230240",
-    "큐로셀": "372320", "PS일렉트로닉스": "332570", "아진엑스텍": "059120",
-    "서울바이오시스": "092190", "코칩": "008930", "필에너지": "475580",
-    "하이브": "352820", "현대로템": "064350", "빛샘전자": "072950",
-    "선광": "003100", "남해화학": "025860",
-    
-    # ━━━━ 코스피 메가캡 15종 ━━━━
-    "삼성전자": "005930", "SK하이닉스": "000660", "LG에너지솔루션": "373220",
-    "삼성바이오로직스": "207940", "현대차": "005380", "기아": "000270",
-    "셀트리온": "068270", "POSCO홀딩스": "005490", "KB금융": "105560",
-    "NAVER": "035420", "신한지주": "055550", "카카오": "035720",
-    "삼성SDI": "006400", "LG화학": "051910", "현대모비스": "012330",
-    
-    # ━━━━ 코스피 시총 5~30조 25종 ━━━━
-    "HMM": "011200", "메리츠금융지주": "138040", "SK": "034730",
-    "두산에너빌리티": "034020", "한화에어로스페이스": "012450", "HD현대중공업": "329180",
-    "삼성화재": "000810", "삼성물산": "028260", "LG전자": "066570",
-    "SK텔레콤": "017670", "KT&G": "033780", "하나금융지주": "086790",
-    "우리금융지주": "316140", "KT": "030200", "대한항공": "003490",
-    "고려아연": "010130", "현대글로비스": "086280", "S-Oil": "010950",
-    "삼성에스디에스": "018260", "SK이노베이션": "096770", "삼성생명": "032830",
-    "한화솔루션": "009830", "삼성전기": "009150", "HD한국조선해양": "009540",
-    "한미반도체": "042700",
-    
-    # ━━━━ 코스닥 시총 상위 15종 ━━━━
-    "알테오젠": "196170", "HLB": "028300", "리노공업": "058470",
-    "HPSP": "403870", "엔켐": "348370", "에코프로": "086520",
-    "에코프로비엠": "247540", "리가켐바이오": "141080", "파마리서치": "214450",
-    "휴젤": "145020", "클래시스": "214150", "삼천당제약": "000250",
-    "케어젠": "214370", "루닛": "328130", "뷰노": "338220",
-    
-    # ━━━━ 트렌딩 종목 13종 ━━━━
-    "휴메딕스": "200670", "HK이노엔": "195940", "씨젠": "096530",
-    "펄어비스": "263750", "크래프톤": "259960", "카카오게임즈": "293490",
-    "두산로보틱스": "454910", "두산밥캣": "241560", "한미약품": "128940",
-    "유한양행": "000100", "종근당": "185750", "녹십자": "006280",
-    "엔씨소프트": "036570",
-}
 
 # ============================================
 # 키워드 점수 (v13.6.8)
@@ -94,7 +46,13 @@ POSITIVE = {
 }
 
 # ============================================
-# corp_code 다운로드 + 매핑 JSON 생성 (NEW v3.0!)
+# 알림 임계값 (강한 시그널만!)
+# ============================================
+ALERT_THRESHOLD_NEG = -25  # 점수 -25 이하: 강한 악재
+ALERT_THRESHOLD_POS = 15   # 점수 +15 이상: 강한 호재
+
+# ============================================
+# corp_code 다운로드 + 매핑 JSON 생성
 # ============================================
 def download_corp_codes():
     print("📥 corp_code 다운로드 중...")
@@ -124,23 +82,20 @@ def generate_corp_code_map():
         corp_name = child.findtext("corp_name", "").strip()
         
         if stock_code and corp_code:
-            # stock_code → corp_code, corp_name
             code_map[stock_code] = {
                 "corp_code": corp_code,
                 "corp_name": corp_name
             }
-            # corp_name → stock_code (이름으로 검색)
             if corp_name:
                 name_map[corp_name] = stock_code
     
-    # JSON 파일로 저장 (봇이 GitHub에서 fetch)
     with open("corp_code_map.json", "w", encoding="utf-8") as f:
         json.dump(code_map, f, ensure_ascii=False, indent=2)
     
     with open("name_to_code.json", "w", encoding="utf-8") as f:
         json.dump(name_map, f, ensure_ascii=False, indent=2)
     
-    print(f"✅ 매핑 완료: {len(code_map)}종 (한국 전체 상장사!)")
+    print(f"✅ 매핑 완료: {len(code_map)}종")
     return code_map
 
 # ============================================
@@ -160,30 +115,36 @@ def fetch_disclosures(corp_code, days=30):
     }
     
     try:
-        r = requests.get(url, params=params, timeout=30)
+        r = requests.get(url, params=params, timeout=15)
         data = r.json()
         if data.get("status") == "000":
             return data.get("list", [])
         return []
-    except Exception as e:
-        print(f"  ⚠️ 오류: {e}")
+    except Exception:
         return []
 
 # ============================================
-# 매트릭스 32종 스크리닝 (자동 알림용)
+# 종목 스크리닝 (한국 전체)
 # ============================================
-def screen_matrix_stocks(code_map):
+def screen_all_stocks(code_map):
     results = []
-    for i, (name, stock_code) in enumerate(STOCKS_INPUT.items(), 1):
-        info = code_map.get(stock_code)
-        if not info:
-            print(f"[{i}/{len(STOCKS_INPUT)}] ⚠️ {name}: corp_code 없음")
-            continue
+    total = len(code_map)
+    
+    print(f"\n📊 {total}종 분석 시작...\n")
+    
+    for i, (stock_code, info) in enumerate(code_map.items(), 1):
+        if i % 100 == 0:
+            print(f"[{i}/{total}] 진행 중... ({i*100//total}%)")
         
         corp_code = info["corp_code"]
-        print(f"[{i}/{len(STOCKS_INPUT)}] 조회 중: {name} ({corp_code})")
+        corp_name = info["corp_name"]
         
         disclosures = fetch_disclosures(corp_code, days=30)
+        
+        # 공시 없는 종목은 스킵 (성능)
+        if not disclosures:
+            time.sleep(0.1)
+            continue
         
         score = 0
         tier1_list = []
@@ -216,8 +177,13 @@ def screen_matrix_stocks(code_map):
                     score += pts
                     호재_list.append(f"{report}(+{pts})")
         
+        # 점수 0 또는 의미 없는 종목 스킵 (CSV 크기 절약)
+        if score == 0 and not tier1_list and len(disclosures) < 3:
+            time.sleep(0.1)
+            continue
+        
         results.append({
-            "종목명": name,
+            "종목명": corp_name,
             "종목코드": stock_code,
             "DART점수": score,
             "Tier1발동": "🚨 YES" if tier1_list else "OK",
@@ -227,12 +193,12 @@ def screen_matrix_stocks(code_map):
             "최근공시": " | ".join(recent_5)[:500],
             "공시건수": len(disclosures),
         })
-        time.sleep(0.3)
+        time.sleep(0.1)
     
     return pd.DataFrame(results)
 
 # ============================================
-# 텔레그램 알림
+# 텔레그램 알림 (강한 시그널만!)
 # ============================================
 def send_telegram_alert(text):
     if not TG_BOT_TOKEN or not TG_CHAT_ID:
@@ -240,7 +206,7 @@ def send_telegram_alert(text):
     url = f"https://api.telegram.org/bot{TG_BOT_TOKEN}/sendMessage"
     requests.post(url, data={
         "chat_id": TG_CHAT_ID,
-        "text": text,
+        "text": text[:4000],
         "parse_mode": "HTML"
     }, timeout=10)
 
@@ -249,47 +215,57 @@ def send_telegram_alert(text):
 # ============================================
 if __name__ == "__main__":
     print("=" * 60)
-    print(f"🎯 워파머 DART 스크리너 v3.0")
+    print(f"🎯 워파머 DART 스크리너 v3.1 (한국 전체)")
     print(f"📅 실행일: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print("=" * 60)
     
-    # 1. corp_code 매핑 JSON 생성 (한국 전체 상장사!)
+    # 1. corp_code 매핑 JSON 생성
     download_corp_codes()
     code_map = generate_corp_code_map()
     
-    # 2. 매트릭스 32종 자동 분석 (텔레그램 알림용)
-    print(f"\n📊 매트릭스 32종 분석 시작...\n")
-    df = screen_matrix_stocks(code_map)
+    # 2. 한국 전체 분석
+    df = screen_all_stocks(code_map)
     df = df.sort_values("DART점수")
     
     today = datetime.now().strftime('%Y%m%d')
     output_csv = f"DART_점수_{today}.csv"
     df.to_csv(output_csv, index=False, encoding="utf-8-sig")
-    print(f"\n✅ 저장: {output_csv}")
-    print(f"✅ 매핑: corp_code_map.json")
-    print(f"✅ 매핑: name_to_code.json")
+    print(f"\n✅ 저장: {output_csv} ({len(df)}종)")
     
-    # 3. 텔레그램 알림
-    tier1_stocks = df[df["Tier1발동"].str.contains("YES")]
-    호재_stocks = df[df["DART점수"] >= 10]
+    # 3. 텔레그램 알림 (강한 시그널만!)
+    tier1_strong = df[
+        (df["Tier1발동"].str.contains("YES")) & 
+        (df["DART점수"] <= ALERT_THRESHOLD_NEG)
+    ].head(10)
+    
+    호재_strong = df[df["DART점수"] >= ALERT_THRESHOLD_POS].head(10)
     
     alert = f"🎯 <b>DART 일일 스크리닝 ({today})</b>\n"
-    alert += f"━━━━━━━━━━━━━━━━━━━━━━\n\n"
+    alert += f"━━━━━━━━━━━━━━━━━━━━━━\n"
+    alert += f"📊 한국 전체 {len(df)}종 분석 (공시 있음)\n\n"
     
-    if len(tier1_stocks) > 0:
-        alert += "🚨 <b>Tier 1 악재 발동 (즉시 회피)</b>\n"
-        for _, row in tier1_stocks.iterrows():
-            alert += f"• <b>{row['종목명']}</b>: {row['DART점수']}점\n"
+    if len(tier1_strong) > 0:
+        alert += f"🚨 <b>강한 악재 (-{abs(ALERT_THRESHOLD_NEG)} 이하): TOP {len(tier1_strong)}</b>\n"
+        for _, row in tier1_strong.iterrows():
+            alert += f"• <b>{row['종목명']}</b> ({row['종목코드']}): {row['DART점수']}점\n"
+        alert += "\n"
     else:
-        alert += "✅ Tier 1 발동 종목 없음\n"
+        alert += f"✅ 강한 악재 (-{abs(ALERT_THRESHOLD_NEG)} 이하): 없음\n\n"
     
-    if len(호재_stocks) > 0:
-        alert += "\n💎 <b>호재 강세 (DART +10 이상)</b>\n"
-        for _, row in 호재_stocks.iterrows():
-            alert += f"• <b>{row['종목명']}</b>: +{row['DART점수']}점\n"
+    if len(호재_strong) > 0:
+        alert += f"💎 <b>강한 호재 (+{ALERT_THRESHOLD_POS} 이상): TOP {len(호재_strong)}</b>\n"
+        for _, row in 호재_strong.iterrows():
+            alert += f"• <b>{row['종목명']}</b> ({row['종목코드']}): +{row['DART점수']}점\n"
+        alert += "\n"
     
-    alert += f"\n📊 매트릭스 {len(df)}종 분석 완료"
-    alert += f"\n🚀 봇 검색: 한국 전체 상장사 6개월 실시간!"
+    alert += f"━━━━━━━━━━━━━━━━━━━━━━\n"
+    alert += f"📱 봇 검색: 한국 전체 실시간!\n"
+    alert += f"🔥 CB 플레이북 자동 추적!"
+    
     send_telegram_alert(alert)
     
-    print("\n🎉 v3.0 작업 완료")
+    print(f"\n📊 결과 요약:")
+    print(f"   전체 분석: {len(df)}종")
+    print(f"   강한 악재: {len(tier1_strong)}종")
+    print(f"   강한 호재: {len(호재_strong)}종")
+    print(f"\n🎉 v3.1 작업 완료")
