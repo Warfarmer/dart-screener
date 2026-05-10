@@ -2,12 +2,13 @@ name: DART Daily Screener
 
 on:
   schedule:
-    - cron: '0 0 * * 1-5'  # UTC 00:00 = KST 09:00 평일
+    - cron: '0 21 * * 0-4'  # UTC 21:00 = KST 06:00 (월~금 새벽)
   workflow_dispatch:
 
 jobs:
   screen:
     runs-on: ubuntu-latest
+    timeout-minutes: 350  # 약 5.8시간 (한국 전체 분석)
     permissions:
       contents: write
     
