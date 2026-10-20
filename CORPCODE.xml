@@ -623764,13 +623764,6 @@
         <modify_date>20230814</modify_date>
     </list>
     <list>
-        <corp_code>01768581</corp_code>
-        <corp_name>포스코피알테크</corp_name>
-        <corp_eng_name>POSCO PRTECH</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20240130</modify_date>
-    </list>
-    <list>
         <corp_code>01780459</corp_code>
         <corp_name>포스코지와이에스테크</corp_name>
         <corp_eng_name>POSCOGYSTECH</corp_eng_name>
@@ -697488,13 +697481,6 @@
         <modify_date>20250324</modify_date>
     </list>
     <list>
-        <corp_code>01592049</corp_code>
-        <corp_name>엔젤로보틱스</corp_name>
-        <corp_eng_name>ANGEL ROBOTICS Co., Ltd.</corp_eng_name>
-        <stock_code>455900</stock_code>
-        <modify_date>20250324</modify_date>
-    </list>
-    <list>
         <corp_code>01467424</corp_code>
         <corp_name>씨티알로보틱스</corp_name>
         <corp_eng_name>SHINAM CORPORATION LTD.</corp_eng_name>
@@ -745529,13 +745515,6 @@
         <modify_date>20260515</modify_date>
     </list>
     <list>
-        <corp_code>02029629</corp_code>
-        <corp_name>허드슨첨단소재코리아</corp_name>
-        <corp_eng_name>Hoardsun Advanced Materials Korea Co.,Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20260515</modify_date>
-    </list>
-    <list>
         <corp_code>00186364</corp_code>
         <corp_name>최신물산</corp_name>
         <corp_eng_name>CHOI&amp;SHIN'S CO.,LTD</corp_eng_name>
@@ -746269,13 +746248,6 @@
         <corp_eng_name>FMW Corp.</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20251028</modify_date>
-    </list>
-    <list>
-        <corp_code>01527407</corp_code>
-        <corp_name>하이케어솔루션</corp_name>
-        <corp_eng_name>Hi-Caresolution Corp</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20251029</modify_date>
     </list>
     <list>
         <corp_code>01381957</corp_code>
@@ -763103,13 +763075,6 @@
         <corp_name>서우회계법인</corp_name>
         <corp_eng_name>seou accounting corp.</corp_eng_name>
         <stock_code> </stock_code>
-        <modify_date>20260306</modify_date>
-    </list>
-    <list>
-        <corp_code>00219440</corp_code>
-        <corp_name>휴맥스홀딩스</corp_name>
-        <corp_eng_name>Humax Holdings Co., Ltd</corp_eng_name>
-        <stock_code>028080</stock_code>
         <modify_date>20260306</modify_date>
     </list>
     <list>
@@ -797910,13 +797875,6 @@
         <modify_date>20260116</modify_date>
     </list>
     <list>
-        <corp_code>00170442</corp_code>
-        <corp_name>하나에프앤아이</corp_name>
-        <corp_eng_name>Hana F&amp;I Inc.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20260116</modify_date>
-    </list>
-    <list>
         <corp_code>00566995</corp_code>
         <corp_name>두선산업</corp_name>
         <corp_eng_name>DOOSUN INDUSTRIES PRINT CO.,LTD</corp_eng_name>
@@ -821535,13 +821493,6 @@
         <modify_date>20261008</modify_date>
     </list>
     <list>
-        <corp_code>02055934</corp_code>
-        <corp_name>브레인앤피플</corp_name>
-        <corp_eng_name>Brainandpeople Co., Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20261008</modify_date>
-    </list>
-    <list>
         <corp_code>02055952</corp_code>
         <corp_name>뉴스타써밋</corp_name>
         <corp_eng_name>New Star Summit Co., Ltd.</corp_eng_name>
@@ -825609,13 +825560,6 @@
         <modify_date>20261013</modify_date>
     </list>
     <list>
-        <corp_code>02056474</corp_code>
-        <corp_name>엣홈</corp_name>
-        <corp_eng_name>At Home Co.,Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20261013</modify_date>
-    </list>
-    <list>
         <corp_code>02043294</corp_code>
         <corp_name>소월한투제이차</corp_name>
         <corp_eng_name>Sowolhantu 2nd CO.,Ltd</corp_eng_name>
@@ -826414,6 +826358,34 @@
         <modify_date>20261014</modify_date>
     </list>
     <list>
+        <corp_code>02057242</corp_code>
+        <corp_name>한국현삼생활건강</corp_name>
+        <corp_eng_name>Korea Hyunsam Life Health Co., Ltd</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
+        <corp_code>02057251</corp_code>
+        <corp_name>클리니젠코리아</corp_name>
+        <corp_eng_name>Clinigen Korea LLC</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
+        <corp_code>02057297</corp_code>
+        <corp_name>와인사랑</corp_name>
+        <corp_eng_name>winesarang</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
+        <corp_code>02056614</corp_code>
+        <corp_name>라윤</corp_name>
+        <corp_eng_name>Layoon</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
         <corp_code>01919352</corp_code>
         <corp_name>대교뉴이프</corp_name>
         <corp_eng_name>DAEKYO NEWIF Co., Ltd</corp_eng_name>
@@ -826897,13 +826869,6 @@
         <modify_date>20261015</modify_date>
     </list>
     <list>
-        <corp_code>02056836</corp_code>
-        <corp_name>인라움</corp_name>
-        <corp_eng_name>inraum</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20261015</modify_date>
-    </list>
-    <list>
         <corp_code>02056854</corp_code>
         <corp_name>미래이엔피</corp_name>
         <corp_eng_name>MIRAE E&amp;P co.,Ltd</corp_eng_name>
@@ -826923,6 +826888,13 @@
         <corp_eng_name>NEW BALANCE KOREA CO., LTD.</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261015</modify_date>
+    </list>
+    <list>
+        <corp_code>02056474</corp_code>
+        <corp_name>엣홈</corp_name>
+        <corp_eng_name>At Home Co.,Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
     </list>
     <list>
         <corp_code>02041205</corp_code>
@@ -827336,6 +827308,13 @@
         <corp_eng_name>Krossroad Dunamu Private Equity Fund</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20260702</modify_date>
+    </list>
+    <list>
+        <corp_code>01768581</corp_code>
+        <corp_name>포스코피알테크</corp_name>
+        <corp_eng_name>POSCO PRTECH</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
     </list>
     <list>
         <corp_code>02039699</corp_code>
@@ -828598,6 +828577,13 @@
         <modify_date>20261008</modify_date>
     </list>
     <list>
+        <corp_code>02057303</corp_code>
+        <corp_name>강북디앤씨</corp_name>
+        <corp_eng_name>north d&amp;c Co., Ltd</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
         <corp_code>01658053</corp_code>
         <corp_name>동원기술투자</corp_name>
         <corp_eng_name>Dongwon Technology Investment Co., Ltd.</corp_eng_name>
@@ -828694,13 +828680,6 @@
         <corp_eng_name>Sharing thomas</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20260922</modify_date>
-    </list>
-    <list>
-        <corp_code>00580667</corp_code>
-        <corp_name>S&amp;K폴리텍</corp_name>
-        <corp_eng_name>S&amp;KPOLYTECCO.,LTD.</corp_eng_name>
-        <stock_code>091340</stock_code>
-        <modify_date>20260929</modify_date>
     </list>
     <list>
         <corp_code>01498576</corp_code>
@@ -830565,13 +830544,6 @@
         <modify_date>20260904</modify_date>
     </list>
     <list>
-        <corp_code>02052663</corp_code>
-        <corp_name>모과운영대부</corp_name>
-        <corp_eng_name>Mogwa Unyoung Daebu Co., Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20260917</modify_date>
-    </list>
-    <list>
         <corp_code>01693560</corp_code>
         <corp_name>위너스텝인베스트먼트코리아</corp_name>
         <corp_eng_name>winnerstep investments korea</corp_eng_name>
@@ -831181,6 +831153,20 @@
         <modify_date>20261014</modify_date>
     </list>
     <list>
+        <corp_code>02056836</corp_code>
+        <corp_name>인라움</corp_name>
+        <corp_eng_name>inraum</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
+        <corp_code>02054698</corp_code>
+        <corp_name>코리아펠라직</corp_name>
+        <corp_eng_name>KoreaPelagic. Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
         <corp_code>02052627</corp_code>
         <corp_name>지오인베스트먼트제일차</corp_name>
         <corp_eng_name>Geo Investment 1st Co., Ltd.</corp_eng_name>
@@ -831249,6 +831235,27 @@
         <corp_eng_name>Dongwon Global Terminal Busan Co., Ltd.</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261016</modify_date>
+    </list>
+    <list>
+        <corp_code>02057190</corp_code>
+        <corp_name>뉴스타북아현2제일차유동화전문유한회사</corp_name>
+        <corp_eng_name>Newstar Bugahyeon2 1st Securitization Specialty., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
+        <corp_code>02057206</corp_code>
+        <corp_name>신보2026제18차유동화전문유한회사</corp_name>
+        <corp_eng_name>Kodit 2026 the 18th Securitization Specialty Co.,Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
+        <corp_code>02057215</corp_code>
+        <corp_name>신보2026제19차유동화전문유한회사</corp_name>
+        <corp_eng_name>Kodit 2026 the 19th Securitization Specialty Co., Ltd</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
     </list>
     <list>
         <corp_code>00760971</corp_code>
@@ -832196,6 +832203,27 @@
         <modify_date>20261016</modify_date>
     </list>
     <list>
+        <corp_code>00580667</corp_code>
+        <corp_name>S&amp;K글로벌</corp_name>
+        <corp_eng_name>S&amp;K GLOBAL CO.,LTD.</corp_eng_name>
+        <stock_code>091340</stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
+        <corp_code>01592049</corp_code>
+        <corp_name>엔젤로보틱스</corp_name>
+        <corp_eng_name>ANGEL ROBOTICS Co., Ltd.</corp_eng_name>
+        <stock_code>455900</stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
+        <corp_code>00219440</corp_code>
+        <corp_name>휴맥스홀딩스</corp_name>
+        <corp_eng_name>Humax Holdings Co., Ltd</corp_eng_name>
+        <stock_code>028080</stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
         <corp_code>01298028</corp_code>
         <corp_name>해줌</corp_name>
         <corp_eng_name>Haezoom Inc.</corp_eng_name>
@@ -832586,13 +832614,6 @@
         <corp_eng_name>NH Harmony 1st Co.ltd</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20260930</modify_date>
-    </list>
-    <list>
-        <corp_code>02054698</corp_code>
-        <corp_name>코리아펠라직</corp_name>
-        <corp_eng_name>KoreaPelagic. Co., Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20261001</modify_date>
     </list>
     <list>
         <corp_code>02048280</corp_code>
@@ -833799,6 +833820,13 @@
         <modify_date>20260923</modify_date>
     </list>
     <list>
+        <corp_code>02057002</corp_code>
+        <corp_name>파인주택노형자산관리</corp_name>
+        <corp_eng_name>Fine Housing Nohyeong Asset Management Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
         <corp_code>02037053</corp_code>
         <corp_name>에스하본리아</corp_name>
         <corp_eng_name>no entry</corp_eng_name>
@@ -834464,13 +834492,6 @@
         <modify_date>20261013</modify_date>
     </list>
     <list>
-        <corp_code>02057002</corp_code>
-        <corp_name>파인주택노형자산관리</corp_name>
-        <corp_eng_name>Fine Housing Nohyeong Asset Management Co., Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20261015</modify_date>
-    </list>
-    <list>
         <corp_code>00631943</corp_code>
         <corp_name>웰크론헬스케어</corp_name>
         <corp_eng_name>Welcron healthcare Co. Ltd.,</corp_eng_name>
@@ -834770,13 +834791,6 @@
         <corp_eng_name>NA</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20260805</modify_date>
-    </list>
-    <list>
-        <corp_code>02056614</corp_code>
-        <corp_name>라윤</corp_name>
-        <corp_eng_name>Layoon</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20261014</modify_date>
     </list>
     <list>
         <corp_code>02056623</corp_code>
@@ -835113,6 +835127,13 @@
         <corp_eng_name>Hapsung Development Co., Ltd.</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20260929</modify_date>
+    </list>
+    <list>
+        <corp_code>02029629</corp_code>
+        <corp_name>허드슨첨단소재코리아</corp_name>
+        <corp_eng_name>Hoardsun Advanced Materials Korea Co.,Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
     </list>
     <list>
         <corp_code>01259931</corp_code>
@@ -836158,6 +836179,34 @@
         <modify_date>20261008</modify_date>
     </list>
     <list>
+        <corp_code>02057224</corp_code>
+        <corp_name>신보2026제20차유동화전문유한회사</corp_name>
+        <corp_eng_name>Kodit 2026 the 20th Securitization Specialty Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
+        <corp_code>02057233</corp_code>
+        <corp_name>신보2026제21차유동화전문유한회사</corp_name>
+        <corp_eng_name>Kodit 2026 the 21st Securitization Specialty Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
+        <corp_code>02055934</corp_code>
+        <corp_name>브레인앤피플</corp_name>
+        <corp_eng_name>Brainandpeople Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
+        <corp_code>01527407</corp_code>
+        <corp_name>하이케어솔루션</corp_name>
+        <corp_eng_name>Hi-Caresolution Corp</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
         <corp_code>00160667</corp_code>
         <corp_name>한국후지쯔</corp_name>
         <corp_eng_name>FUJITSU KOREA LIMITED</corp_eng_name>
@@ -836247,6 +836296,20 @@
         <corp_eng_name>Jeakwon co., Ltd.</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20260807</modify_date>
+    </list>
+    <list>
+        <corp_code>00170442</corp_code>
+        <corp_name>하나에프앤아이</corp_name>
+        <corp_eng_name>Hana F&amp;I Inc.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
+    </list>
+    <list>
+        <corp_code>02052663</corp_code>
+        <corp_name>모과운영대부</corp_name>
+        <corp_eng_name>Mogwa Unyoung Daebu Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261019</modify_date>
     </list>
     <list>
         <corp_code>01251762</corp_code>
