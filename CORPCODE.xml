@@ -1247,13 +1247,6 @@
         <modify_date>20170630</modify_date>
     </list>
     <list>
-        <corp_code>00425537</corp_code>
-        <corp_name>MarubeniCorporation</corp_name>
-        <corp_eng_name>Marubeni Corporation</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20170630</modify_date>
-    </list>
-    <list>
         <corp_code>00424158</corp_code>
         <corp_name>캐피탈라인</corp_name>
         <corp_eng_name>CapitaLine Inc.</corp_eng_name>
@@ -455729,13 +455722,6 @@
         <modify_date>20220509</modify_date>
     </list>
     <list>
-        <corp_code>01644704</corp_code>
-        <corp_name>칸서스로지스틱스피에프브이</corp_name>
-        <corp_eng_name>Consus logistics PFV Co., Ltd</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20220509</modify_date>
-    </list>
-    <list>
         <corp_code>01648241</corp_code>
         <corp_name>디엠티</corp_name>
         <corp_eng_name>DMT Ldt., Co.</corp_eng_name>
@@ -577095,13 +577081,6 @@
         <modify_date>20230503</modify_date>
     </list>
     <list>
-        <corp_code>01749559</corp_code>
-        <corp_name>엠에스바이오</corp_name>
-        <corp_eng_name>MSBIO</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20230503</modify_date>
-    </list>
-    <list>
         <corp_code>00112703</corp_code>
         <corp_name>대창운수</corp_name>
         <corp_eng_name>DAECHANGWUNSU CO.LTD</corp_eng_name>
@@ -620957,13 +620936,6 @@
         <modify_date>20240226</modify_date>
     </list>
     <list>
-        <corp_code>00623838</corp_code>
-        <corp_name>크리오스</corp_name>
-        <corp_eng_name>CRYOS CO.,Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20230926</modify_date>
-    </list>
-    <list>
         <corp_code>01585809</corp_code>
         <corp_name>케이씨파츠텍</corp_name>
         <corp_eng_name>KCPartsTech Co., Ltd.</corp_eng_name>
@@ -635128,13 +635100,6 @@
         <corp_code>01743485</corp_code>
         <corp_name>채움주택건설</corp_name>
         <corp_eng_name>chaeum housing construction</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20230426</modify_date>
-    </list>
-    <list>
-        <corp_code>01689354</corp_code>
-        <corp_name>업테라</corp_name>
-        <corp_eng_name>UPPTHERA</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20230426</modify_date>
     </list>
@@ -729212,13 +729177,6 @@
         <modify_date>20260119</modify_date>
     </list>
     <list>
-        <corp_code>01405585</corp_code>
-        <corp_name>윙스풋</corp_name>
-        <corp_eng_name>WING'S FOOT INC.</corp_eng_name>
-        <stock_code>335870</stock_code>
-        <modify_date>20260119</modify_date>
-    </list>
-    <list>
         <corp_code>00961792</corp_code>
         <corp_name>농업회사법인양지바른</corp_name>
         <corp_eng_name>Yangjibarun Corporation</corp_eng_name>
@@ -753691,13 +753649,6 @@
         <modify_date>20250528</modify_date>
     </list>
     <list>
-        <corp_code>00113207</corp_code>
-        <corp_name>대한전선</corp_name>
-        <corp_eng_name>Taihan Cable &amp; Solution Co., Ltd.</corp_eng_name>
-        <stock_code>001440</stock_code>
-        <modify_date>20250926</modify_date>
-    </list>
-    <list>
         <corp_code>00896753</corp_code>
         <corp_name>에코글로우</corp_name>
         <corp_eng_name>EcoGlow Co., Ltd.</corp_eng_name>
@@ -758085,13 +758036,6 @@
         <corp_eng_name>ARGO ENERGY KOREA HOLDINGS Co.,Ltd</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20260506</modify_date>
-    </list>
-    <list>
-        <corp_code>00399694</corp_code>
-        <corp_name>SOOP</corp_name>
-        <corp_eng_name>SOOP CO., LTD.</corp_eng_name>
-        <stock_code>067160</stock_code>
-        <modify_date>20260507</modify_date>
     </list>
     <list>
         <corp_code>01719105</corp_code>
@@ -766610,13 +766554,6 @@
         <corp_name>경농</corp_name>
         <corp_eng_name>KYUNGNONG CORPORATION</corp_eng_name>
         <stock_code>002100</stock_code>
-        <modify_date>20260311</modify_date>
-    </list>
-    <list>
-        <corp_code>00226352</corp_code>
-        <corp_name>케이엠더블유</corp_name>
-        <corp_eng_name>KMW CO. LTD.</corp_eng_name>
-        <stock_code>032500</stock_code>
         <modify_date>20260311</modify_date>
     </list>
     <list>
@@ -821395,13 +821332,6 @@
         <modify_date>20261008</modify_date>
     </list>
     <list>
-        <corp_code>02056067</corp_code>
-        <corp_name>지구인더스트리</corp_name>
-        <corp_eng_name>JIGUINDUSTRY CO,.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20261008</modify_date>
-    </list>
-    <list>
         <corp_code>01657841</corp_code>
         <corp_name>람다256</corp_name>
         <corp_eng_name>Lambda256 Co., Ltd</corp_eng_name>
@@ -822907,6 +822837,13 @@
         <modify_date>20261014</modify_date>
     </list>
     <list>
+        <corp_code>02058135</corp_code>
+        <corp_name>세종레미콘</corp_name>
+        <corp_eng_name>sejeongrrmc</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
         <corp_code>01534027</corp_code>
         <corp_name>비즈플레이</corp_name>
         <corp_eng_name>Bizplay Co., Ltd.</corp_eng_name>
@@ -822947,6 +822884,13 @@
         <corp_eng_name>Na</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20260805</modify_date>
+    </list>
+    <list>
+        <corp_code>01828546</corp_code>
+        <corp_name>원익자산운용</corp_name>
+        <corp_eng_name>WONIK Asset Management Co. , Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
     </list>
     <list>
         <corp_code>02040570</corp_code>
@@ -824055,6 +823999,13 @@
         <modify_date>20261013</modify_date>
     </list>
     <list>
+        <corp_code>02056182</corp_code>
+        <corp_name>갤럭시국제여행사</corp_name>
+        <corp_eng_name>GALAXY INTERNATIONLA TRAVEL CO., LTD</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
         <corp_code>01324837</corp_code>
         <corp_name>엔트리움</corp_name>
         <corp_eng_name>Ntrium Inc.</corp_eng_name>
@@ -825077,13 +825028,6 @@
         <modify_date>20261002</modify_date>
     </list>
     <list>
-        <corp_code>01828546</corp_code>
-        <corp_name>오르카자산운용</corp_name>
-        <corp_eng_name>WONIK Asset Management Co. , Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20261002</modify_date>
-    </list>
-    <list>
         <corp_code>02055536</corp_code>
         <corp_name>세종이앤씨</corp_name>
         <corp_eng_name>SEJONG E&amp;C CO., LTD.</corp_eng_name>
@@ -825460,6 +825404,20 @@
         <corp_eng_name>Seil Accounting Corp.</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261013</modify_date>
+    </list>
+    <list>
+        <corp_code>02057978</corp_code>
+        <corp_name>제이온챌린지</corp_name>
+        <corp_eng_name>J on Challenge Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
+        <corp_code>02058001</corp_code>
+        <corp_name>아이엠히어로제구차</corp_name>
+        <corp_eng_name>IM Hero the 9th Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
     </list>
     <list>
         <corp_code>02043294</corp_code>
@@ -826799,13 +826757,6 @@
         <modify_date>20261020</modify_date>
     </list>
     <list>
-        <corp_code>02057604</corp_code>
-        <corp_name>화이트스톤네트웍스</corp_name>
-        <corp_eng_name>Whitestone Networks Co., Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20261020</modify_date>
-    </list>
-    <list>
         <corp_code>01435452</corp_code>
         <corp_name>에보닉페록사이드코리아</corp_name>
         <corp_eng_name>SKC Evonik Peroxide Korea Co., Ltd</corp_eng_name>
@@ -827245,6 +827196,20 @@
         <corp_eng_name>POSCO PRTECH</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261019</modify_date>
+    </list>
+    <list>
+        <corp_code>00113207</corp_code>
+        <corp_name>대한전선</corp_name>
+        <corp_eng_name>Taihan Cable &amp; Solution Co., Ltd.</corp_eng_name>
+        <stock_code>001440</stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
+        <corp_code>01749559</corp_code>
+        <corp_name>엠에스바이오</corp_name>
+        <corp_eng_name>MSBIO. Inc</corp_eng_name>
+        <stock_code>0013Y0</stock_code>
+        <modify_date>20261022</modify_date>
     </list>
     <list>
         <corp_code>02039699</corp_code>
@@ -827992,13 +827957,6 @@
         <corp_code>01147955</corp_code>
         <corp_name>글로리아웨딩그룹</corp_name>
         <corp_eng_name>gloriawedding</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20261008</modify_date>
-    </list>
-    <list>
-        <corp_code>02056182</corp_code>
-        <corp_name>갤럭시국제여행사</corp_name>
-        <corp_eng_name>GALAXY INTERNATIONLA TRAVEL CO., LTD</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261008</modify_date>
     </list>
@@ -828766,6 +828724,20 @@
         <modify_date>20261020</modify_date>
     </list>
     <list>
+        <corp_code>02056067</corp_code>
+        <corp_name>지구인더스트리</corp_name>
+        <corp_eng_name>JIGUINDUSTRY CO,.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
+        <corp_code>02056207</corp_code>
+        <corp_name>에프에스텍</corp_name>
+        <corp_eng_name>Fire Stone Technology Inc.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
         <corp_code>01048274</corp_code>
         <corp_name>인실리코</corp_name>
         <corp_eng_name>Insilico.co.Ltd</corp_eng_name>
@@ -829494,6 +829466,13 @@
         <modify_date>20260929</modify_date>
     </list>
     <list>
+        <corp_code>02057604</corp_code>
+        <corp_name>화이트스톤네트웍스</corp_name>
+        <corp_eng_name>Whitestone Networks Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
         <corp_code>02046893</corp_code>
         <corp_name>도현에프엠</corp_name>
         <corp_eng_name>Dohyunfm CO.,LTD</corp_eng_name>
@@ -830061,6 +830040,13 @@
         <modify_date>20260911</modify_date>
     </list>
     <list>
+        <corp_code>00226352</corp_code>
+        <corp_name>케이엠더블유</corp_name>
+        <corp_eng_name>KMW CO. LTD.</corp_eng_name>
+        <stock_code>032500</stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
         <corp_code>02041278</corp_code>
         <corp_name>제이비베스트제이십오차</corp_name>
         <corp_eng_name>JB Best 25th Co., Ltd.</corp_eng_name>
@@ -830278,11 +830264,11 @@
         <modify_date>20261021</modify_date>
     </list>
     <list>
-        <corp_code>01924123</corp_code>
-        <corp_name>케이케이홀딩스</corp_name>
-        <corp_eng_name>Almaden Holdings Co.,Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20261021</modify_date>
+        <corp_code>00399694</corp_code>
+        <corp_name>SOOP</corp_name>
+        <corp_eng_name>SOOP CO., LTD.</corp_eng_name>
+        <stock_code>067160</stock_code>
+        <modify_date>20261022</modify_date>
     </list>
     <list>
         <corp_code>02017101</corp_code>
@@ -830479,6 +830465,20 @@
         <corp_eng_name>DOUBLE FINANCE LOAN</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20260922</modify_date>
+    </list>
+    <list>
+        <corp_code>02057987</corp_code>
+        <corp_name>에스온케이</corp_name>
+        <corp_eng_name>S on K Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
+        <corp_code>02057996</corp_code>
+        <corp_name>에스온엔엑스</corp_name>
+        <corp_eng_name>S on NX Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
     </list>
     <list>
         <corp_code>02037831</corp_code>
@@ -830908,6 +830908,13 @@
         <modify_date>20261002</modify_date>
     </list>
     <list>
+        <corp_code>02057473</corp_code>
+        <corp_name>경승정밀</corp_name>
+        <corp_eng_name>Kyung Seung Precision Co.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
         <corp_code>01766422</corp_code>
         <corp_name>회계법인에이블</corp_name>
         <corp_eng_name>Accounting Corporation Able</corp_eng_name>
@@ -831242,6 +831249,20 @@
         <corp_eng_name>SAMKWANG LABTREE Co., Ltd.</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261021</modify_date>
+    </list>
+    <list>
+        <corp_code>00623838</corp_code>
+        <corp_name>크리오스</corp_name>
+        <corp_eng_name>CRYOS CO.,Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
+        <corp_code>01405585</corp_code>
+        <corp_name>윙스풋</corp_name>
+        <corp_eng_name>WING'S FOOT INC.</corp_eng_name>
+        <stock_code>335870</stock_code>
+        <modify_date>20261022</modify_date>
     </list>
     <list>
         <corp_code>00760971</corp_code>
@@ -832210,6 +832231,13 @@
         <modify_date>20261019</modify_date>
     </list>
     <list>
+        <corp_code>02058056</corp_code>
+        <corp_name>엠에스파트너스제이차</corp_name>
+        <corp_eng_name>MS Partners 2nd Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
         <corp_code>01298028</corp_code>
         <corp_name>해줌</corp_name>
         <corp_eng_name>Haezoom Inc.</corp_eng_name>
@@ -832763,6 +832791,27 @@
         <modify_date>20261016</modify_date>
     </list>
     <list>
+        <corp_code>01644704</corp_code>
+        <corp_name>칸서스로지스틱스피에프브이</corp_name>
+        <corp_eng_name>Consus logistics PFV Co., Ltd</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
+        <corp_code>02058065</corp_code>
+        <corp_name>기업키움이2026제2차유동화전문유한회사</corp_name>
+        <corp_eng_name>Kiup Kiwoom e 2026 the 2st Securitization Specialty Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
+        <corp_code>02058074</corp_code>
+        <corp_name>전북은행오토파트너제일차유동화전문유한회사</corp_name>
+        <corp_eng_name>Jeonbuk Bank Auto Partner First Securitization Specialty Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
         <corp_code>02047236</corp_code>
         <corp_name>대흥중기운수서비스</corp_name>
         <corp_eng_name>DAEHEUNG</corp_eng_name>
@@ -832852,6 +832901,13 @@
         <corp_eng_name>DAESUNG ENGINEERING CORP.</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20260917</modify_date>
+    </list>
+    <list>
+        <corp_code>02058083</corp_code>
+        <corp_name>2026기보제이차유동화전문유한회사</corp_name>
+        <corp_eng_name>2026 KIBO 2nd Securitization Specialty Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
     </list>
     <list>
         <corp_code>02049386</corp_code>
@@ -833202,6 +833258,13 @@
         <corp_eng_name>DAE-YOUNG LIVESTOCK MEDICINES CO.</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261014</modify_date>
+    </list>
+    <list>
+        <corp_code>01924123</corp_code>
+        <corp_name>알마덴홀딩스</corp_name>
+        <corp_eng_name>Almaden Holdings Co.,Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
     </list>
     <list>
         <corp_code>00261285</corp_code>
@@ -833720,6 +833783,41 @@
         <corp_eng_name>JRD INC</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261007</modify_date>
+    </list>
+    <list>
+        <corp_code>00425537</corp_code>
+        <corp_name>MarubeniCorporation</corp_name>
+        <corp_eng_name>Marubeni Corporation</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
+        <corp_code>02058092</corp_code>
+        <corp_name>세한인뷰</corp_name>
+        <corp_eng_name>SEHANINVIEW CO</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
+        <corp_code>02058108</corp_code>
+        <corp_name>덴탈오케이</corp_name>
+        <corp_eng_name>Dental OK, Inc.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
+        <corp_code>02058117</corp_code>
+        <corp_name>이다국제물류한국</corp_name>
+        <corp_eng_name>YDH INTERNATIONAL LOGISTICS KOREA., LTD.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
+    </list>
+    <list>
+        <corp_code>02058126</corp_code>
+        <corp_name>부천공간제일차</corp_name>
+        <corp_eng_name>bucheon space 1st co., ltd</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
     </list>
     <list>
         <corp_code>02036434</corp_code>
@@ -835157,13 +835255,6 @@
         <modify_date>20260909</modify_date>
     </list>
     <list>
-        <corp_code>02056207</corp_code>
-        <corp_name>에프에스텍</corp_name>
-        <corp_eng_name>Fire Stone Technology Inc.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20261008</modify_date>
-    </list>
-    <list>
         <corp_code>02056216</corp_code>
         <corp_name>코크렙제72호위탁관리부동산투자회사</corp_name>
         <corp_eng_name>KOCREF72REIT</corp_eng_name>
@@ -836406,13 +836497,6 @@
         <corp_code>02057464</corp_code>
         <corp_name>대신반도체공급망사모투자</corp_name>
         <corp_eng_name>Daishin Semiconductor Supply Chain Private Equity Fund</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20261020</modify_date>
-    </list>
-    <list>
-        <corp_code>02057473</corp_code>
-        <corp_name>경승정밀</corp_name>
-        <corp_eng_name>Kyung Seung Precision Co.</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261020</modify_date>
     </list>
@@ -837801,6 +837885,13 @@
         <corp_eng_name>Green Laser Co., Ltd</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261015</modify_date>
+    </list>
+    <list>
+        <corp_code>01689354</corp_code>
+        <corp_name>업테라</corp_name>
+        <corp_eng_name>UPPTHERA</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261022</modify_date>
     </list>
     <list>
         <corp_code>01772593</corp_code>
