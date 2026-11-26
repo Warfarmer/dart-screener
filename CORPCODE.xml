@@ -384574,13 +384574,6 @@
         <modify_date>20220222</modify_date>
     </list>
     <list>
-        <corp_code>00369222</corp_code>
-        <corp_name>인베스터유나이티드</corp_name>
-        <corp_eng_name>Investor United Inc.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20220222</modify_date>
-    </list>
-    <list>
         <corp_code>01071634</corp_code>
         <corp_name>인준산업개발</corp_name>
         <corp_eng_name>In Jun Industrial Development Co., Ltd.</corp_eng_name>
@@ -575912,13 +575905,6 @@
         <modify_date>20230510</modify_date>
     </list>
     <list>
-        <corp_code>01760057</corp_code>
-        <corp_name>일레븐코퍼레이션</corp_name>
-        <corp_eng_name>eleven corporation co., ltd</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20230510</modify_date>
-    </list>
-    <list>
         <corp_code>00812043</corp_code>
         <corp_name>제이앤엘테크</corp_name>
         <corp_eng_name>J&amp;L Tech Co., Ltd</corp_eng_name>
@@ -657469,13 +657455,6 @@
         <modify_date>20240628</modify_date>
     </list>
     <list>
-        <corp_code>01613078</corp_code>
-        <corp_name>드웰링</corp_name>
-        <corp_eng_name>Dwelling Co., Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20240628</modify_date>
-    </list>
-    <list>
         <corp_code>01615669</corp_code>
         <corp_name>매스코</corp_name>
         <corp_eng_name>MASCO</corp_eng_name>
@@ -672221,13 +672200,6 @@
         <corp_code>01841015</corp_code>
         <corp_name>스튜디오시나트</corp_name>
         <corp_eng_name>STUDIO SCENART</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20241107</modify_date>
-    </list>
-    <list>
-        <corp_code>01232314</corp_code>
-        <corp_name>지에스아이</corp_name>
-        <corp_eng_name>GSI Co., Ltd.</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20241107</modify_date>
     </list>
@@ -707222,13 +707194,6 @@
         <corp_name>이지홀딩스</corp_name>
         <corp_eng_name>Easy Holdings Co., Ltd.</corp_eng_name>
         <stock_code>035810</stock_code>
-        <modify_date>20240701</modify_date>
-    </list>
-    <list>
-        <corp_code>00370006</corp_code>
-        <corp_name>iMBC</corp_name>
-        <corp_eng_name>iMBC Co., Ltd.</corp_eng_name>
-        <stock_code>052220</stock_code>
         <modify_date>20240701</modify_date>
     </list>
     <list>
@@ -752858,13 +752823,6 @@
         <modify_date>20260304</modify_date>
     </list>
     <list>
-        <corp_code>01344956</corp_code>
-        <corp_name>마인드웨어웤스</corp_name>
-        <corp_eng_name>MindwareWorks Co., Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20260304</modify_date>
-    </list>
-    <list>
         <corp_code>01557648</corp_code>
         <corp_name>대한글로벌인더스트리</corp_name>
         <corp_eng_name>Daehan Global Industry CO., Ltd</corp_eng_name>
@@ -766371,13 +766329,6 @@
         <corp_code>00908155</corp_code>
         <corp_name>NH농협손해보험</corp_name>
         <corp_eng_name>NongHyup Property &amp; Casualty Insurance Co., Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20260331</modify_date>
-    </list>
-    <list>
-        <corp_code>00552585</corp_code>
-        <corp_name>미주엔비켐</corp_name>
-        <corp_eng_name>MIJOO ENVICHEM Co.,LTD</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20260331</modify_date>
     </list>
@@ -800941,13 +800892,6 @@
         <modify_date>20260331</modify_date>
     </list>
     <list>
-        <corp_code>00160047</corp_code>
-        <corp_name>한국앤컴퍼니</corp_name>
-        <corp_eng_name>HANKOOK &amp; COMPANY CO., LTD.</corp_eng_name>
-        <stock_code>000240</stock_code>
-        <modify_date>20260331</modify_date>
-    </list>
-    <list>
         <corp_code>00203582</corp_code>
         <corp_name>한솔홈데코</corp_name>
         <corp_eng_name>Hansol HomeDeco co.,ltd.</corp_eng_name>
@@ -805515,13 +805459,6 @@
         <corp_code>01928615</corp_code>
         <corp_name>우리기술</corp_name>
         <corp_eng_name>Wooril Technology Co.Ltd</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20260226</modify_date>
-    </list>
-    <list>
-        <corp_code>01754205</corp_code>
-        <corp_name>규원테크</corp_name>
-        <corp_eng_name>kyuwontech co.,ltd</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20260226</modify_date>
     </list>
@@ -819806,13 +819743,6 @@
         <modify_date>20261112</modify_date>
     </list>
     <list>
-        <corp_code>01755259</corp_code>
-        <corp_name>피스피스스튜디오</corp_name>
-        <corp_eng_name>PIECE PEACE STUDIO Co., Ltd.</corp_eng_name>
-        <stock_code>0117P0</stock_code>
-        <modify_date>20261112</modify_date>
-    </list>
-    <list>
         <corp_code>01863318</corp_code>
         <corp_name>넥스아이</corp_name>
         <corp_eng_name>NEX-I,  Inc.</corp_eng_name>
@@ -819888,6 +819818,27 @@
         <corp_eng_name>C-SITE Co., Ltd.</corp_eng_name>
         <stock_code>109670</stock_code>
         <modify_date>20261109</modify_date>
+    </list>
+    <list>
+        <corp_code>02064923</corp_code>
+        <corp_name>코람코가치투자숭례위탁관리부동산투자회사</corp_name>
+        <corp_eng_name>koramco value investment sungnye reit</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
+        <corp_code>02045070</corp_code>
+        <corp_name>랩인큐브</corp_name>
+        <corp_eng_name>LabInCube Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
+        <corp_code>02064464</corp_code>
+        <corp_name>헤메트</corp_name>
+        <corp_eng_name>HEMMET Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
     </list>
     <list>
         <corp_code>02048244</corp_code>
@@ -822459,13 +822410,6 @@
         <modify_date>20260831</modify_date>
     </list>
     <list>
-        <corp_code>02046088</corp_code>
-        <corp_name>히츠</corp_name>
-        <corp_eng_name>HITS Inc.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20260902</modify_date>
-    </list>
-    <list>
         <corp_code>02046699</corp_code>
         <corp_name>웰트</corp_name>
         <corp_eng_name>WELT Corp., Ltd</corp_eng_name>
@@ -824377,6 +824321,34 @@
         <modify_date>20261120</modify_date>
     </list>
     <list>
+        <corp_code>02064862</corp_code>
+        <corp_name>이가상사</corp_name>
+        <corp_eng_name>Leega</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
+        <corp_code>01232314</corp_code>
+        <corp_name>지에스아이오토메이션</corp_name>
+        <corp_eng_name>GSI Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
+        <corp_code>02064880</corp_code>
+        <corp_name>블루에그컴퍼니</corp_name>
+        <corp_eng_name>Bluegg Company Co., Ltd</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
+        <corp_code>01613078</corp_code>
+        <corp_name>드웰링</corp_name>
+        <corp_eng_name>Dwelling Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
         <corp_code>02042125</corp_code>
         <corp_name>베어버드제오차</corp_name>
         <corp_eng_name>NA</corp_eng_name>
@@ -824557,6 +824529,41 @@
         <corp_eng_name>GAJA MOBILITY</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261124</modify_date>
+    </list>
+    <list>
+        <corp_code>02062934</corp_code>
+        <corp_name>토닥</corp_name>
+        <corp_eng_name>TODOC Co.,Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
+        <corp_code>01760057</corp_code>
+        <corp_name>일레븐코퍼레이션</corp_name>
+        <corp_eng_name>eleven corporation co., ltd</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
+        <corp_code>02064899</corp_code>
+        <corp_name>모노파트너스</corp_name>
+        <corp_eng_name>Mono Partners Co., Ltd</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
+        <corp_code>02064978</corp_code>
+        <corp_name>천지</corp_name>
+        <corp_eng_name>CHEONJI Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
+        <corp_code>02046088</corp_code>
+        <corp_name>히츠</corp_name>
+        <corp_eng_name>HITS Inc.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
     </list>
     <list>
         <corp_code>00130189</corp_code>
@@ -826659,13 +826666,6 @@
         <modify_date>20261119</modify_date>
     </list>
     <list>
-        <corp_code>02064464</corp_code>
-        <corp_name>헤메트</corp_name>
-        <corp_eng_name>HEMMET Co., Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20261123</modify_date>
-    </list>
-    <list>
         <corp_code>02064482</corp_code>
         <corp_name>에스에프어브로드제사차</corp_name>
         <corp_eng_name>SF Abroad 4th Co., Ltd.</corp_eng_name>
@@ -828185,13 +828185,6 @@
         <modify_date>20260826</modify_date>
     </list>
     <list>
-        <corp_code>02045070</corp_code>
-        <corp_name>랩인큐브</corp_name>
-        <corp_eng_name>LabInCube Co., Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20260827</modify_date>
-    </list>
-    <list>
         <corp_code>02054847</corp_code>
         <corp_name>그랜드타이어</corp_name>
         <corp_eng_name> Grand Tire Co., Ltd.</corp_eng_name>
@@ -829683,13 +829676,6 @@
         <modify_date>20261001</modify_date>
     </list>
     <list>
-        <corp_code>02062934</corp_code>
-        <corp_name>토닥</corp_name>
-        <corp_eng_name>TODOC Co.,Ltd.</corp_eng_name>
-        <stock_code> </stock_code>
-        <modify_date>20261119</modify_date>
-    </list>
-    <list>
         <corp_code>00811992</corp_code>
         <corp_name>미부중공업</corp_name>
         <corp_eng_name>MIBOO TECHNOLOGY CO., LTD</corp_eng_name>
@@ -830353,6 +830339,27 @@
         <corp_eng_name>TriOar Inc.</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261123</modify_date>
+    </list>
+    <list>
+        <corp_code>00160047</corp_code>
+        <corp_name>한국앤컴퍼니</corp_name>
+        <corp_eng_name>HANKOOK &amp; COMPANY CO., LTD.</corp_eng_name>
+        <stock_code>000240</stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
+        <corp_code>00351579</corp_code>
+        <corp_name>비트플래닛</corp_name>
+        <corp_eng_name>BITPLANET Co.,Ltd.</corp_eng_name>
+        <stock_code>049470</stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
+        <corp_code>00370006</corp_code>
+        <corp_name>iMBC</corp_name>
+        <corp_eng_name>iMBC Co., Ltd.</corp_eng_name>
+        <stock_code>052220</stock_code>
+        <modify_date>20261125</modify_date>
     </list>
     <list>
         <corp_code>02017101</corp_code>
@@ -832784,13 +832791,6 @@
         <modify_date>20260710</modify_date>
     </list>
     <list>
-        <corp_code>00351579</corp_code>
-        <corp_name>비트플래닛</corp_name>
-        <corp_eng_name>BITPLANET Co.,Ltd.</corp_eng_name>
-        <stock_code>049470</stock_code>
-        <modify_date>20260710</modify_date>
-    </list>
-    <list>
         <corp_code>00358341</corp_code>
         <corp_name>엔투비</corp_name>
         <corp_eng_name>eNtoB Corporation</corp_eng_name>
@@ -834021,6 +834021,34 @@
         <corp_eng_name>LPTech robotics Co.,Ltd</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261001</modify_date>
+    </list>
+    <list>
+        <corp_code>00369222</corp_code>
+        <corp_name>인베스터유나이티드</corp_name>
+        <corp_eng_name>Investor United Inc.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
+        <corp_code>02064987</corp_code>
+        <corp_name>인천마전서희제일차</corp_name>
+        <corp_eng_name>n</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
+        <corp_code>02064996</corp_code>
+        <corp_name>청명에셋</corp_name>
+        <corp_eng_name>Cheongmyeong Asset</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
+        <corp_code>02065029</corp_code>
+        <corp_name>에스비홀딩스</corp_name>
+        <corp_eng_name>SB Holdings Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
     </list>
     <list>
         <corp_code>01918353</corp_code>
@@ -835381,6 +835409,20 @@
         <modify_date>20261124</modify_date>
     </list>
     <list>
+        <corp_code>02064808</corp_code>
+        <corp_name>코오롱오토인터내셔널</corp_name>
+        <corp_eng_name>kolonautointernational co.,ltd</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
+        <corp_code>02064844</corp_code>
+        <corp_name>디비크레딧제팔차</corp_name>
+        <corp_eng_name>N</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
         <corp_code>02023023</corp_code>
         <corp_name>지씨파트너스</corp_name>
         <corp_eng_name>GC Partners Co., Ltd</corp_eng_name>
@@ -836443,6 +836485,13 @@
         <corp_eng_name>AROOT LENDING CO., LTD.</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261110</modify_date>
+    </list>
+    <list>
+        <corp_code>01344956</corp_code>
+        <corp_name>마인드웨어웍스</corp_name>
+        <corp_eng_name>MindwareWorks Co., Ltd.</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
     </list>
     <list>
         <corp_code>02050072</corp_code>
@@ -837607,6 +837656,13 @@
         <modify_date>20261105</modify_date>
     </list>
     <list>
+        <corp_code>00552585</corp_code>
+        <corp_name>미주엔비켐</corp_name>
+        <corp_eng_name>MIJOO ENVICHEM Co.,LTD</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
+    </list>
+    <list>
         <corp_code>00106641</corp_code>
         <corp_name>기아</corp_name>
         <corp_eng_name>KIA CORPORATION</corp_eng_name>
@@ -838711,6 +838767,13 @@
         <corp_eng_name>STUDIO GLOVIC</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261123</modify_date>
+    </list>
+    <list>
+        <corp_code>01754205</corp_code>
+        <corp_name>규원테크</corp_name>
+        <corp_eng_name>kyuwontech co.,ltd</corp_eng_name>
+        <stock_code> </stock_code>
+        <modify_date>20261125</modify_date>
     </list>
     <list>
         <corp_code>02039574</corp_code>
@@ -839880,6 +839943,13 @@
         <corp_eng_name>Mastern No.143 General Real Estate Private Master Investment Company</corp_eng_name>
         <stock_code> </stock_code>
         <modify_date>20261124</modify_date>
+    </list>
+    <list>
+        <corp_code>01755259</corp_code>
+        <corp_name>피스피스스튜디오</corp_name>
+        <corp_eng_name>PIECE PEACE STUDIO Co., Ltd.</corp_eng_name>
+        <stock_code>0117P0</stock_code>
+        <modify_date>20261125</modify_date>
     </list>
     <list>
         <corp_code>01949186</corp_code>
